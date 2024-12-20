@@ -1,14 +1,16 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Honda_Civic(){
 
   return(
-    <div className="bg-sky-100 min-h-screen px-4 sm:px-10 py-8">
+    <div className="bg-white min-h-screen px-4 sm:px-10 py-8">
      <h1 className="font-bold text-center text-lg sm:text-xl lg:text-2xl">
       Honda Civic 2024 Price in Pakistan, Images, Reviews & Specs
       </h1>
     
       <div className="flex justify-center mt-6">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFK02fMsa8rDAkoAn1L0OXSXMsKjCNrlS3pw&s" className="h-40 w-60 sm:h-52 sm:w-72 lg:h-60 lg:w-80 object-cover rounded-md"></img>
+       <Image src="/Honda-Civic.jpg" alt="honda civic" height={300} width={300}
+        className="h-40 w-60 sm:h-52 sm:w-72 lg:h-60 lg:w-80 object-cover rounded-md"/>
       </div> 
 
       <div className="flex flex-wrap justify-center gap-4 mt-6">

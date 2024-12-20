@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Navbar() {
     return (
       <nav className="bg-black w-full lg:h-28 px-4 sm:px-10 py-2">
@@ -19,10 +20,11 @@ export default function Navbar() {
         <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full">
           {/* Logo */}
           <div className="w-36 h-16 flex-shrink-0">
-            <img
-              src="https://static.pakwheels.com/2016/06/pw-logo.png"
+            <Image
+              src="/pw-logo.png"
               alt="pakwheels logo"
-              className="h-full object-contain"
+              width={200}
+              height={200}
             />
           </div>
   

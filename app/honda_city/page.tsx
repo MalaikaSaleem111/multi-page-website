@@ -1,9 +1,10 @@
 import Link from "next/link"
+import Image from "next/image";
 
 
 export default function HondaCity() {
   return (
-    <div className="bg-sky-100 min-h-screen px-4 sm:px-10 py-8">
+    <div className="bg-white min-h-screen px-4 sm:px-10 py-8">
       {/* Title */}
       <h1 className="font-bold text-center text-lg sm:text-xl lg:text-2xl">
         Honda City 2024 Price in Pakistan, Images, Reviews & Specs
@@ -11,10 +12,12 @@ export default function HondaCity() {
 
       {/* Image Section */}
       <div className="flex justify-center mt-6">
-        <img
-          src="https://i0.wp.com/bestsellingcarsblog.com/wp-content/uploads/2022/05/Honda-City-Vietnam-April-2022.jpg?resize=600%2C400"
+        <Image
+          src="/Honda_City.jpg"
           className="h-40 w-60 sm:h-52 sm:w-72 lg:h-60 lg:w-80 object-cover rounded-md"
           alt="Honda City 2024"
+          width={300}
+          height={300}
         />
       </div>
 

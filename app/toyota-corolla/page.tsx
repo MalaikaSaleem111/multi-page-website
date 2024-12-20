@@ -1,18 +1,21 @@
 import Link from "next/link"
+import Image from "next/image";
 export default function Toyota_Corolla() {
   return (
-    <div className="bg-sky-100 min-h-screen px-4 sm:px-10 py-8">
+    <div className="bg-white min-h-screen px-4 sm:px-10 py-8">
       {/* Page Title */}
       <h1 className="font-bold text-center text-lg sm:text-xl lg:text-2xl">
         Toyota Corolla 2024 Price in Pakistan, Images, Reviews & Specs
       </h1>
 
       {/* Image Section */}
-      <div className="flex justify-center bg-sky-100 mt-6">
-        <img
-          src="https://di-uploads-pod25.dealerinspire.com/edmarktoyota/uploads/2024/02/2024-toyota-corolla-banner.jpg"
+      <div className="flex justify-center mt-6">
+        <Image
+          src="/Toyota-Corolla.jpg"
           className="h-40 w-60 sm:h-52 sm:w-72 lg:h-60 lg:w-80 object-cover rounded-md"
           alt="Toyota Corolla 2024"
+          width={300}
+          height={300}
         />
       </div>
 

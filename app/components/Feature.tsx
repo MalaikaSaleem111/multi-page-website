@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
 
 const Feature = () => {
   return (
@@ -18,10 +19,10 @@ const Feature = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-white rounded-lg shadow-md p-4">
           <Link href="/toyota-corolla">
-            <img
-              src="https://cache1.pakwheels.com/system/car_generation_pictures/5361/medium/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg?1606903674"
-              alt="Toyota Corolla"
-              className="h-48 w-full object-cover rounded-md"
+            <Image
+              src="/Toyota-Corolla.jpg"
+              alt="Toyota Corolla" width={300} height={134}
+              className=" object-cover rounded-md"
             />
             <h3 className="text-blue-950 font-bold text-center mt-2">Toyota Corolla</h3>
             <p className="text-green-500 text-center">PKR 59.7 - 75.5 lacs</p>
@@ -30,10 +31,13 @@ const Feature = () => {
 
         <div className="bg-white rounded-lg shadow-md p-4">
           <Link href="/suzuki_alto">
-            <img
-              src="https://cache4.pakwheels.com/system/car_generation_pictures/6013/medium/Suzuki_Alto_-_PNG.png?1635945100"
+            <Image
+              src="/Suzuki_Alto.png"
               alt="Suzuki Alto"
-              className="h-48 w-full object-cover rounded-md"
+              width={300}
+              height={134}
+
+              className="object-cover rounded-md"
             />
             <h3 className="text-blue-950 font-bold text-center mt-2">Suzuki Alto</h3>
             <p className="text-green-500 text-center">PKR 23.3 - 30.5 lacs</p>
@@ -42,10 +46,12 @@ const Feature = () => {
 
         <div className="bg-white rounded-lg shadow-md p-4">
           <Link href="/honda_city">
-            <img
-              src="https://cache1.pakwheels.com/system/car_generation_pictures/6425/medium/Honda_City_Front.jpg?1651424945"
+            <Image
+              src="/Honda_City.jpg"
               alt="Honda City"
-              className="h-48 w-full object-cover rounded-md"
+              width={300}
+              height={134}
+              className="object-cover rounded-md"
             />
             <h3 className="text-blue-950 font-bold text-center mt-2">Honda City</h3>
             <p className="text-green-500 text-center">PKR 46.5 - 58.5 lacs</p>
@@ -55,9 +61,11 @@ const Feature = () => {
         <div className="bg-white rounded-lg shadow-md p-4">
           <Link href="/honda_civic">
             <img
-              src="https://cache4.pakwheels.com/system/car_generation_pictures/7370/medium/Cover.jpg?1677570254"
+              src="/Honda-Civic.jpg"
               alt="Honda Civic"
-              className="h-48 w-full object-cover rounded-md"
+              width={300}
+              height={134}
+              className="object-cover rounded-md"
             />
             <h3 className="text-blue-950 font-bold text-center mt-2">Honda Civic</h3>
             <p className="text-green-500 text-center">PKR 86.6 - 99.0 lacs</p>

@@ -1,7 +1,8 @@
 import Link from "next/link"
+import Image from "next/image";
 export default function Suzuki_Alto(){
     return (
-      <div className="bg-sky-100 min-h-screen px-4 sm:px-10 py-8">
+      <div className="bg-white min-h-screen px-4 sm:px-10 py-8">
         {/* Page Title */}
         <h1 className="font-bold text-center text-lg sm:text-xl lg:text-2xl">
           Suzuki Alto 2024 Price in Pakistan, Images, Reviews & Specs
@@ -9,10 +10,13 @@ export default function Suzuki_Alto(){
   
         {/* Image Section */}
         <div className="flex justify-center mt-6">
-          <img
-            src="https://media.licdn.com/dms/image/v2/D4D12AQEr5JRcTtzWVg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1712558027267?e=2147483647&v=beta&t=HDQM6AqzsfAdGSCCOIQ3z0bgLn6voI2pdxGwvhpxbH4"
-            className="h-40 w-60 sm:h-52 sm:w-72 lg:h-60 lg:w-80 object-cover rounded-md"
+          <Image
+            src="/Suzuki_Alto.png"
             alt="Suzuki Alto 2024"
+            height={300}
+            width={300}
+            className="h-40 w-60 sm:h-52 sm:w-72 lg:h-60 lg:w-80 object-cover rounded-md"
+
           />
         </div>
   
